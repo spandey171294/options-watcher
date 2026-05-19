@@ -456,7 +456,7 @@ def run_once(cfg: Config):
             cfg.interval,
         )
 
-        time.sleep(1)
+        time.sleep(3)
 
         if df is None:
             continue
@@ -546,7 +546,7 @@ def main():
     parser.add_argument(
         "--option-strikes-each-side",
         type=int,
-        default=2,
+        default=1,
     )
 
     parser.add_argument(
